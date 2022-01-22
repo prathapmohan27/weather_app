@@ -49,7 +49,7 @@
   async function getWeather(city = 'tamil nadu') {
     try {
       const response = await fetch(
-        `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=5fd43bcaf87037957facb2925e3650c2`,
+        `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=5fd43bcaf87037957facb2925e3650c2`,
         // eslint-disable-next-line comma-dangle
         { mode: 'cors' }
       );
